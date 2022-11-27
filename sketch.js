@@ -1,7 +1,16 @@
+let img;
+
+function preload() {
+  img = loadImage(introscreen.jpg);
+}
+
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(1000,1000);
+  loadImage;
 }
 
 function draw() {
   background(125);
+  loadImage;
 }
