@@ -31,3 +31,10 @@ function draw() {
   image(img, 0, 0, width, height);
 }
 
+function mouseClicked() {
+  hit = collidePointPoly(mouseX,mouseY,poly);
+  if (hit) {
+    let thisphrase = phrases[round(random(7))]
+    alert(thisphrase)
+  }
+}
